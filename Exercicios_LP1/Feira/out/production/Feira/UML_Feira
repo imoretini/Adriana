@@ -1,0 +1,23 @@
+->Produto
+-Nome
+-Categoria
+-Preço
++Exibir inf
++Aumentar preço
++Diminuir preço
+
+->Feirante
+-Nome
+-Produto principal
+-Saldo
++Vender
++Negociar
++Mostrar Saldo
+
+->Cliente
+-Nome
+-Carteira de Dinheiro
+-Idade
++Comprar
++Mostrar Dinheiro
++Verificar Idade

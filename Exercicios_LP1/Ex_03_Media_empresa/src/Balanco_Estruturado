@@ -1,0 +1,10 @@
+void main() {
+    double jan = 15000;
+    double fev = 23000;
+    double mar = 17000;
+    double soma = jan+fev+mar;
+    double media = soma/3;
+
+    IO.println("A soma do primeiro trimestre é: "); IO.print(soma);
+    IO.println("A media do primeiro trimestre é:"); IO.print(media);
+}
