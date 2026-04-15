@@ -1,0 +1,24 @@
+Paisagem (Lousa):
+
+-> Arvore
+    - Altura
+    - especie
+    - idade
+    + crescer
+    + darfrutos
+Farmacia
+->Remedio
+    - Nome
+    - dose receitada
+    - dose ingerida
+    + tirar dor
+    + intoxicar
+
+->Bebidas
+    - Nome;
+    - volume;
+    - Sabor;
+    + matar a sede;
+    + molhar
+
+->

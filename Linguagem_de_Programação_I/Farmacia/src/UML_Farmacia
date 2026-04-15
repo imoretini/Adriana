@@ -1,0 +1,24 @@
+-> Remedio
+-Nome
+-Dose Receitada
+-Dose Ingerida
++ Não funcionar
++ Intoxicar
++ Aliviar Sintoma
+
+-> Bebidas
+-Nome
+-Volume
+-Sabor
+-Quantidade ingerida
++matar a sede
++Molhar a boca
++verificar sabor
+
+->Cliente
+-nome
+-CPF
+-Idade
++Mostrar seus dados
++validar idade
++validar CPF
