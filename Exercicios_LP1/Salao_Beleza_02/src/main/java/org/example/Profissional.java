@@ -1,3 +1,5 @@
+package org.example;
+
 public class Profissional {
     //Atributos
     private String nome;
@@ -13,18 +15,18 @@ public class Profissional {
 
     //Métodos
     public void atender() {
-        IO.println(nome + " está atendendo um cliente.");
+        System.out.println(nome + " está atendendo um cliente.");
     }
 
     public void avaliarExperiencia() {
         if (experiencia > 5) {
-            IO.println(nome + " é um profissional experiente.");
+            System.out.println(nome + " é um profissional experiente.");
         } else {
-            IO.println(nome + " ainda está em início de carreira.");
+            System.out.println(nome + " ainda está em início de carreira.");
         }
     }
 
     public void contarServicos() {
-        IO.println(nome + " já realizou " + servicosRealizados + " serviços.");
+        System.out.println(nome + " já realizou " + servicosRealizados + " serviços.");
     }
 }

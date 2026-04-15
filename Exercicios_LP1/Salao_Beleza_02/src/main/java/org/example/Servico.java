@@ -1,3 +1,5 @@
+package org.example;
+
 public class Servico {
     //Atributos
     private String nome;
@@ -14,19 +16,19 @@ public class Servico {
     //Métodos
     public void atrasar() {
         if (tempoRealizado > tempoPrevisto) {
-            IO.println("O serviço demorou mais que o previsto.");
+            System.out.println("O serviço demorou mais que o previsto.");
         }
     }
 
     public void pontual() {
         if (tempoRealizado == tempoPrevisto) {
-            IO.println("Serviço realizado no tempo certo.");
+            System.out.println("Serviço realizado no tempo certo.");
         }
     }
 
     public void rapido() {
         if (tempoRealizado < tempoPrevisto) {
-            IO.println("Serviço concluído mais rápido que o esperado!");
+            System.out.println("Serviço concluído mais rápido que o esperado!");
         }
     }
 }
