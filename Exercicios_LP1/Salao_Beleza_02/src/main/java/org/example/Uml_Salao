@@ -1,23 +1,23 @@
--> Produto
-- Nome
-- Categoria
-- Preço
-+ Exibir inf
-+ Aumentar preço
-+ Diminuir preço
-
--> Feirante
-- Nome
-- Produto principal
-- Saldo
-+ Vender
-+ Negociar
-+ Mostrar Saldo
-
 -> Cliente
 - Nome
-- Carteira de Dinheiro
-- Idade
-+ Comprar
-+ Mostrar Dinheiro
-+ Verificar Idade
+- Satisfeito
+- Reclamou
++ Reclamar
++ Elogiar
++ Voltar ao Salão
+
+-> Profissional
+- Nome
+- Experiencia
+- Serviços realizados
++ Atender
++ Avaliar Experiência
++ Contar Serviços
+
+-> Serviço
+- Nome
+- Tempo Previsto
+- Tempo Realizado
++ Atrasar
++ Pontual
++ Rapido

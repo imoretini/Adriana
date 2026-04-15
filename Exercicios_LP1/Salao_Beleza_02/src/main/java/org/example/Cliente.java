@@ -1,3 +1,5 @@
+package org.example;
+
 public class Cliente {
     //Atributos
     private String nome;
@@ -13,20 +15,20 @@ public class Cliente {
 
     //Métodos
     public void elogiar() {
-        if (satisfeito) {
-            IO.println(nome + " elogiou o atendimento!");
+        if (satisfeito.equals("Sim") || satisfeito.equals("sim")) {
+            System.out.println(nome + " elogiou o atendimento!");
         }
     }
 
     public void reclamar() {
-        if (reclamou) {
-            IO.println(nome + " fez uma reclamação.");
+        if (reclamou.equals("Sim") || reclamou.equals("sim")) {
+            System.out.println(nome + " fez uma reclamação.");
         }
     }
 
     public void voltar() {
         if (satisfeito && !reclamou) {
-            IO.println(nome + " voltará ao salão.");
+            System.out.println(nome + " voltará ao salão.");
         }
     }
 }
